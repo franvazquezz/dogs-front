@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: 'creative-canines.up.railway.app',
+    https: true,
+    host: 'https://creative-canines.up.railway.app',
   },
 })
