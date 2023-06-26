@@ -1,0 +1,99 @@
+.container{
+    margin-left: 17%;
+    margin-top: 0%;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cont{
+    min-height: 100vh;
+    object-fit: cover;
+    justify-content: space-around;
+    top: 60px;
+}
+.filter{
+    max-height: fit-content;
+    margin-left: 5px;
+    padding: 10px;
+    max-width: 15%;
+    border: 3px solid rgb(8, 46, 8);
+    position: fixed;
+    border-radius: 20px;
+    background-image: linear-gradient(144deg,#1b6319, #185734 50%,#155546);
+}
+.filter:hover{
+    border: 3px solid rgb(255, 255, 255);
+    background-image: linear-gradient(144deg,#2564b6, #1d3faf 50%,#1c13a1);
+}
+.back{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #ff4742;
+    color: #fff;
+    background-color: #d83d38;
+    padding: 0px;
+    font-weight: 800;
+    font-size: 16px;
+    height: 32px;
+}
+.back:hover{
+    background: 0 0;
+    color: #ff4742;
+}
+.select{
+    width: 130px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.863);
+    border: thin solid blue;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+     /* reset */
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* arrow */
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      radial-gradient(#ddd 70%, transparent 72%);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      calc(100% - .5em) .5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1.5em 1.5em;
+    background-repeat: no-repeat;
+  }
+  
+  .select:focus {
+    background-image:
+      linear-gradient(45deg, white 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, white 50%),
+      radial-gradient(gray 70%, transparent 72%);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      calc(100% - .5em) .5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1.5em 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+  }
+  
+  .h2{
+    margin-top:5px;
+  }

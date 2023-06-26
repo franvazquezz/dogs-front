@@ -1,0 +1,44 @@
+.main{
+    margin-top: 70px;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.carta{
+    background-color: rgba(47, 79, 79, 0.651);
+    min-width: 240px;
+    min-height: 350px;
+    justify-content: center;
+    border: 3px solid darkslategray;
+    border-radius: 15px;
+    padding: 10px;
+}
+.status{
+    object-fit: contain;
+}
+.img{
+    width: 35vw;
+    aspect-ratio: 3/2;
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.back{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #ff4742;
+    color: #fff;
+    background-color: #d83d38;
+    padding: 0px;
+    font-weight: 800;
+    font-size: 16px;
+    height: 32px;
+}
+.back:hover{
+    background: 0 0;
+    color: #ff4742;
+}

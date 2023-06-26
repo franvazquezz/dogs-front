@@ -1,0 +1,12 @@
+.boton{
+    border: 3px solid chartreuse;
+    border-radius: 10px;
+    min-height: 20px;
+    min-width: 30px;
+    margin: 2px;
+    padding:2px;
+}
+.boton:hover{
+    background:#4caf72;
+    transform: scale(1.2);
+}

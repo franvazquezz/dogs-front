@@ -1,0 +1,65 @@
+.fondo{
+    margin-top: 60px;
+    min-height: 100vh;
+    align-items: center;
+    position: absolute;
+
+}
+.pancho{
+    margin: 5px;
+    width: 25%;
+    height: 20%;
+    color: white;
+    font-size: 2em;
+    margin-left: 38%;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content:center;
+}
+.foto{
+    width: 20%;
+    border-radius: 100%;
+    border: outset 15px rgba(0, 0, 0, 0.349);
+    margin-top: 4%;
+    animation: rotate negro 5s;
+}
+@keyframes negro {
+    0%{transform: translateY(10%);}
+}
+@keyframes rotate {
+    form {}
+    to {transform: rotate(1080deg);}
+}
+.text{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: x-large;
+    background-color: rgb(240, 248, 255, 0.45);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    height: 50%;
+    margin-top: 140px;
+}
+.img{
+    top: 0%;
+    left: 0%;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.dogs{
+    padding: 0%;
+    margin-top: 140px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+    margin-top: 20px;
+}

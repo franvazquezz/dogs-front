@@ -1,0 +1,95 @@
+.todo{
+  margin-top: 60px;
+  min-height: 100vh;
+  background-color: rgba(210, 105, 30, 0.5);
+}
+.form{
+  display: inline-block;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(47, 79, 79, 0.651);
+  width: 850px;
+  height: 1100px;
+  border: 3px solid darkslategray;
+  border-radius: 15px;
+  padding: 10px;
+}
+.checkboxdiv{
+  display:flex;
+  justify-content: space-around;
+}
+.input{
+  display: flex;
+  margin-left:330px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  height: 30px;
+  line-height: normal;
+  color: #282828;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.788);
+}
+.input:focus{
+    border: 3px solid #5551ff;
+}
+.array{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.random{
+  width: 200px;
+  aspect-ratio: 4/3;
+}
+.select{
+  width: 130px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.788);
+  border: thin solid blue;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+   /* reset */
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* arrow */
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    radial-gradient(#ddd 70%, transparent 72%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - .5em) .5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1.5em 1.5em;
+  background-repeat: no-repeat;
+  }
+  
+.select:focus {
+  background-image:
+    linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    radial-gradient(gray 70%, transparent 72%);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - .5em) .5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1.5em 1.5em;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+  
