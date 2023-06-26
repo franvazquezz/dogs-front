@@ -18,6 +18,7 @@
     "react-router-dom": "^6.11.2",
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2",
+    "surge": "^0.23.1",
     "web-vitals": "^3.3.2"
   },
   "devDependencies": {
