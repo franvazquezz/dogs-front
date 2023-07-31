@@ -9,7 +9,7 @@ import store from './redux/store';
 import axios from 'axios';
 
 // axios.defaults.baseURL = 'http://localhost:3001'
-axios.defaults.baseURL = 'https://dogs-back-production-b0dc.up.railway.app'
+axios.defaults.baseURL = 'https://dogs-backend-vtl5.onrender.com'
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
